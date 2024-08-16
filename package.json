@@ -12,8 +12,10 @@
     ".": {
       "import": "./dist/iuui.js",
       "require": "./dist/iuui.umd.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
+  "sideEffects": false,
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
